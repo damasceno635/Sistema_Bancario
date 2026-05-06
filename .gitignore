@@ -1,0 +1,16 @@
+node_modules/
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Sistema
+.DS_Store
+
+# IDE / VS Code
+.vscode/
+
+# Cobertura de testes
+coverage/

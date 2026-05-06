@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clonar repositório
+        uses: actions/checkout@v3
+
+      - name: Instalar Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Instalar dependências
+        run: npm install
+
+      - name: Rodar testes
+        run: npm test
+
+      - name: Criar .env fake
+        run: |
+          echo "DB_HOST=localhost" >> .env
+          echo "DB_USER=root" >> .env
+          echo "DB_PASSWORD=123" >> .env   
+          echo "DB_NAME=banco" >> .env    
