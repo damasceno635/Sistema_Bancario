@@ -61,7 +61,7 @@ describe('Conta', () => {
 
   test('Ver saldo', () => {
     const conta = new Conta(1, "Ana", 300);
-    expect(conta.verSaldo()).toBe(350);
+    expect(conta.verSaldo()).toBe(300);
   });
 
 });
