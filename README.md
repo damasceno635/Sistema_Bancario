@@ -4,7 +4,7 @@ Sistema bancário simples desenvolvido em JavaScript utilizando arquitetura MVC 
 
 ---
 
-# 📌 Funcionalidades
+## 📌 Funcionalidades
 
 - Criar conta bancária
 - Depositar valores
@@ -14,7 +14,7 @@ Sistema bancário simples desenvolvido em JavaScript utilizando arquitetura MVC 
 
 ---
 
-# 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 - JavaScript (Node.js)
 - MySQL
@@ -23,9 +23,9 @@ Sistema bancário simples desenvolvido em JavaScript utilizando arquitetura MVC 
 
 ---
 
-# ⚙️ Configuração e Execução do Projeto
+## ⚙️ Configuração e Execução do Projeto
 
-## 1️. Clonar o repositório
+### 1️. Clonar o repositório
 
 ```bash
 git clone https://github.com/damasceno635/Sistema_Bancario.git
@@ -33,7 +33,7 @@ git clone https://github.com/damasceno635/Sistema_Bancario.git
 
 ---
 
-## 2️. Instalar dependências
+### 2️. Instalar dependências
 
 ```bash
 npm install
@@ -41,9 +41,9 @@ npm install
 
 ---
 
-# 3. Configuração do Banco de Dados
+## 3. Configuração do Banco de Dados
 
-## Criar banco
+### Criar banco
 
 ```sql
 CREATE DATABASE banco;
@@ -52,7 +52,7 @@ USE banco;
 
 ---
 
-## Criar tabela
+### Criar tabela
 
 ```sql
 CREATE TABLE contas (
@@ -64,7 +64,7 @@ CREATE TABLE contas (
 
 ---
 
-# 4. Executar o Projeto
+## 4. Executar o Projeto
 
 ```bash
 npm start
@@ -72,7 +72,7 @@ npm start
 
 ---
 
-# 🧪 Executar Testes
+## 🧪 Executar Testes
 
 ```bash
 npm test
@@ -80,7 +80,7 @@ npm test
 
 ---
 
-# 🔄 Integração Contínua (CI)
+## 🔄 Integração Contínua (CI)
 
 O projeto utiliza GitHub Actions para:
 
