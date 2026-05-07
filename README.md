@@ -87,3 +87,10 @@ O projeto utiliza GitHub Actions para:
 - Instalar dependências automaticamente
 - Executar testes unitários
 - Impedir merge em caso de falha
+
+### º Configuração para bloquear a merge
+- Settings → Branches → Add branch ruleset → (nomear ruleset) → Enforcement status → Active.
+- Add target → main.
+- Require a pull request before merging → Require status checks to pass → Require branches to be up to date before merging.
+- Add checks → test.
+- Salve as modificações.
